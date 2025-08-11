@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Love Walk</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="theme-color" content="#101018" />
+    <style>
+      html, body { margin:0; padding:0; background:#0e0f14; height:100%; }
+      body { display:flex; align-items:center; justify-content:center; }
+      #game { width:100%; max-width:900px; aspect-ratio:900/506; }
+      canvas { display:block; width:100% !important; height:100% !important; }
+      .fallback { color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; text-align:center; }
+      .fallback a { color:#7dd3fc; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.90.0/phaser.min.js"></script>
+  </head>
+  <body>
+    <div id="game">
+      <noscript>
+        <div class="fallback">
+          This experience needs JavaScript enabled. Please enable it and reload.
+        </div>
+      </noscript>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
